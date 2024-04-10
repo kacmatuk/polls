@@ -1,0 +1,101 @@
+/* Обнуляем стандартные отступы */
+body{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-family: sans-serif;
+}
+
+/* Делаем контейнер для размещения контента */
+.container{
+    margin: 0 auto;
+    width: 720px;
+}
+/* Элемент списка опросов */
+.polls .poll{
+    padding: 25px 25px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #cecece;
+    background: white;
+    box-shadow: 5px 5px 5px #e5e5e5;
+}
+/* Вопрос */
+.poll .question{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 900;
+    color: #3c3c3c;
+}
+/* Ячейки таблицы */
+.poll table th,
+.poll table td{
+    min-width: 80px;  
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.35em;
+}
+/* Заголовки таблицы */
+.poll table th{
+    vertical-align: middle;
+    background-color: #c1c3ff;
+    padding: 10px;
+}
+
+.poll table th.empty-cell{
+    background: none;
+}
+
+.poll table td{
+    padding: 5px 0;
+}
+
+.poll .radio-wr{
+    width: 30px;
+    margin: auto;
+}
+.poll .radio-wr input[type=radio]{
+    height: 17px;
+    width: 17px;
+}
+
+.send-box{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.send-box label{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #414141;
+}
+
+.send-box input{
+    margin: auto;
+    margin: 10px;
+}
+
+.send-box input[type=text]{
+    padding: 5px 15px;
+    width: 200px;
+    font-weight: 700;
+    color: #434343;
+}
+
+.send-box input[type=submit]{
+    border: none;
+    background: #434343;
+    color: white;
+    width: 125px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.send-box input[type=submit]:hover{
+    background: #0f0f0f;
+    transition: .2s;
+    cursor: pointer;
+}
